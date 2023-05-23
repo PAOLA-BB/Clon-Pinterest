@@ -1,0 +1,156 @@
+body, html {
+    color: rgb(33, 25, 34);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+}
+
+
+#navbar-pinterest ul{
+    display: flex;
+    margin-left: 12%;
+    cursor: pointer;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    list-style: none;
+}
+
+#navbar-pinterest{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 75px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+#pinterest-icon{
+    color: #e60023;
+    fill: currentColor;
+    cursor: pointer;
+
+}
+
+button{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+  
+}
+
+#notifications{
+    fill: #5f5f5f;
+    width: 50px;
+    height: 25px;   
+}
+
+#message{
+    fill: #5f5f5f;
+    width: 50px;
+    height: 25px;
+    
+}
+
+#profile-img img{
+    border-radius: 50px;
+   
+}
+
+.finder{
+    border-radius: 50px;
+    width: 800px;
+    height: 50px;
+    background-color: #e9e9e9;
+    border: none;
+    padding-left: 3em;
+}
+
+@media (max-width: 1024px){
+    .finder{
+       width: 10px;
+       height: 10px;
+    }
+} 
+
+@media (max-width: 768px){
+    .finder{
+        width: 10px;
+        height: 10px;
+    }
+}
+    
+@media (max-width: 480px){
+    .finder{
+       width: 10px;
+       height: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    .finder{
+        width: 10px;
+        height: 10px; 
+    }
+}
+
+
+.finder:hover{
+    background-color: rgb(221, 219, 219);
+}
+
+.conten_finder{
+    position: relative;
+}
+
+.finder_img{
+    position: absolute;
+    padding: 0px 0px 0px 12px;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    pointer-events: none;
+    fill: #5f5f5f;
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+
+
+
+
+#content{
+   columns: 5 100px;
+   column-gap: 5ch;
+}
+  
+.card-image{
+   max-width: 100%;
+   max-height: 100%;
+   margin-bottom: 1em;
+   border-radius: 20px;
+   cursor: zoom-in;
+   
+}
+
+.card-image:hover {
+    background-color: #5f5f5f;
+    opacity: 10;
+    
+    
+
+}
